@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FastFoodDemo.jnlp">
+  <information>
+    <title>FastFoodDemo</title>
+    <vendor>Benny Coder</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FastFoodDemo.jar" size="328273" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2368735" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="FastFoodDemo" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="main.Launch"  name="FastFoodDemo" />
+  <update check="always"/>
+</jnlp>
